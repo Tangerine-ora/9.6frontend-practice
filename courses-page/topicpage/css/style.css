@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 5%;
+    background-color: #0f4c81;
+}
+
+.nav-logo {
+    color: #ffffff;
+    font-size: 22.4px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19.2px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #e8f2fb;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #ffd066;
+}
+
+.banner {
+    text-align: center;
+    padding: 48px 16px;
+    background-color: #e8f2fb;
+}
+
+.banner h1 {
+    color: #0f4c81;
+}
+
+.banner p {
+    color: #335778;
+    font-size: 17.6px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #0f4c81;
+    color: white;
+    padding: 19.2px;
+}
+
+
+.grid-demo {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.card .card-title {
+    color: #0f4c81;
+}
+
+@media (min-width:768px) {
+    .banner {
+        padding: 64px 16px;
+    }
+}
